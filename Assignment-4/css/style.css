@@ -1,0 +1,156 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: t;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-size: 1em;
+    background:#3c186e;
+    color:coral;
+	font-family: Dynalight, Copperplate, Tahoma;
+    margin:20px
+        
+	
+}
+
+header{
+    text-align: right;
+    color:#f6f0ff;
+    padding: 20px;
+}
+
+
+#container1 {
+
+  width: 100%;                          
+  max-width:900px;
+  margin: auto;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:60px;
+  line-height: 4em;
+  text-align: center;
+    
+
+}
+
+p1{
+   padding-top: 10px;
+   margin-bottom:auto;
+   line-height: 2em;
+   color: #f6f0ff;
+
+}
+
+
+span.letterm{
+    font-size:75em;
+    max-height: 90%;
+    position:relative;
+    top:300px;
+    right:300px;
+    margin:auto;
+
+}
+
+
+
+span.lettero{
+    font-size:40em;
+    position:relative;
+    bottom:200px;
+    right:30px;
+    margin:auto;
+
+}
+
+
+span.letterm2{
+    font-size:25em;
+    position:relative;
+    bottom:150px;
+    right:58px;
+    margin:auto;
+
+
+}
+
+
+
+span.lettere{
+    font-size:25em;
+    position:relative;
+    right:500px;
+    top:124px;
+    margin:auto;
+
+}
+
+
+span.lettern{
+    font-size:25em;
+    position:relative;
+   bottom:80px;
+    left:345px;
+    margin:auto;
+
+}
+
+
+
+span.lettert{
+    font-size:25em;
+    position:relative;
+    bottom:180px;
+    left:188px;
+    margin:auto;
+
+}
+    
+
+
+
+#container2 {
+  font-family:Sacramento;
+  width: 25%;                          
+  max-width:900px;
+  padding:30px;
+  position: relative;
+  bottom: 800px;
+  left: 1000px;
+    
+    
+	
+}
+
+
+p{
+  font-size: 1em;
+    color: #f6f0ff;
+}
+
+span.moment{
+    font-size:1.5em;
+}
+
+    
+span.moment2{
+    font-size:1.5em;
+    
+}
+
+footer{
+    font-family:Dynalight;
+    
+}
