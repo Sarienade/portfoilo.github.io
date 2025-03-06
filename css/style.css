@@ -15,7 +15,8 @@ html {
 
 
 body {
-    background:#ffeac9;
+    background:#ffeac9 url('../img/white-peaches.jpg')no-repeat fixed center;
+    background-size: cover;
     color:coral;
 	font-family: Copperplate, Tahoma;
     margin:20px
