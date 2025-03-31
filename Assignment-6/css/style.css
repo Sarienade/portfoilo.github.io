@@ -1,0 +1,137 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    font-family: Comic Neue, Tahoma;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body{
+    background:url(../img/junimo.jpg)fixed center;
+    background-size: 10%;
+    color:rgba(103, 21, 105,100);
+    }
+
+
+#container {
+    margin:1em;
+    padding: 0.75em;
+    align-content: center;
+}
+
+#Someone{
+    background:rgba(251, 200, 211, 80%);
+    padding:10px;
+}
+
+#ME{
+    background:rgba(251, 227, 211, 80%);
+    padding:10px;
+}
+
+img{
+    display: block;
+    margin:auto;
+    text-align: center;
+    
+    }
+figcaption{
+    background:rgba(251, 200, 211, 80%);
+    width:175px;
+}
+
+footer{
+    background:rgba(251, 200, 211, 80%);
+    width:130px;
+}
+    
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+    
+    
+body{
+    background:url(../img/junimo.jpg)fixed center;
+    background-size: 10%;
+    }
+    
+#container {
+    width:700px; 
+    margin:auto;
+}
+    
+    
+img{
+    width:50%;
+    margin:auto;
+    padding-left:10em;
+    padding-right:10em;
+    
+    }
+    
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+body{
+    background:url(../img/junimo.jpg)fixed center;
+    background-size: 10%;
+    }
+#container {
+    width:1000px;
+    }   
+
+#Someone{
+    float:left;
+    width: 55%;   
+    }
+    
+#ME{
+    float:right;
+    width: 40%;        
+    }
+    
+img{
+    width:50%;
+    margin:auto;
+    padding: 0em;
+    }
+    
+}
+    
+footer{
+    clear:both;
+    }
+    
+    }
+	
+	
+} /* closes 1024px+ */
+
+
+
