@@ -11,6 +11,7 @@ html {
 	font-size: 1em;
     line-height: 2em;
     text-align: center;
+        margin: auto;
 }
 
 main{  
@@ -18,7 +19,8 @@ main{
     width: 90%;                          
     max-width: 800px;                 
     margin: auto;
-    padding: 10px;}
+    padding: 10px;
+}
 
 img{
     width: 100%;
@@ -52,10 +54,6 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
-	
-#container {
-    padding-left: 170px;
-    width: 80%;}
        
 img{
     width:75%;}   
@@ -71,13 +69,6 @@ main{
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 
-    
-    body{
-        padding-left: 150px;
-        padding-right: 150px;
-        
-    }
-	
 	
 	
 } /* closes 1024px+ */
