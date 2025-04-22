@@ -1,0 +1,86 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:40px;
+    width: 80%;
+    font-family: Merriweather;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+main{  
+    background: rgb(255, 244, 242);
+    width: 90%;                          
+    max-width: 800px;                 
+    margin: auto;
+    padding: 10px;}
+
+img{
+    width: 100%;
+    cursor: pointer;
+    display:inline-block;
+   ;
+
+}
+
+body {
+	
+}
+
+
+
+.pagemagic{
+    background:lavender;
+    color:cornflowerblue;
+    font-size:1em;
+    font-family:Oldenburg, Comic Sans;
+
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+#container {
+    padding-left: 170px;
+    width: 80%;}
+       
+img{
+    width:75%;}   
+    
+main{ 
+    max-width: 90%}
+
+/* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+    
+    body{
+        padding-left: 150px;
+        padding-right: 150px;
+        
+    }
+	
+	
+	
+} /* closes 1024px+ */
+
+
+

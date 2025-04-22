@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius&family=Dynalight&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oldenburg&family=Sacramento&display=swap" rel="stylesheet">
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>The End of The Semester: A Review</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>"How is the end of the semester going, Sarah?"</h1>
+    <img id=well src="img/Well.png"/img>
+</header>
+
+<main>
+
+<section>
+<p id=focus_text>I have a LOT on my plate, and working two jobs makes it seem as though assignments are coming in faster than I can complete them. I need to use 103% of my brain to power through and get crap DONE. It doesn't help that my ADHD brain has decided to take my motivation for an EARLY CHECKOUT. I NEED IT BACK, THE SEMESTER ISN'T OVER YET!!</p>
+<img id=Focus src="img/Focus.png"/img> </section>
+    
+    
+<section>
+<p id=anvil_text>It always seems like something super important is about to drop down from the sky as soon as I catch up in terms of my many responsibilites. Not to mention the kids I teach are coming in coughing up all sorts of germs. I'd be surprised if I don't catch a virus the way these toddlers be hacking up phlem.</p>
+<img id=Anvil src="img/Anvil.png"/img></section>
+    
+    
+<section>
+<p id=weak_text>These four weeks got me walking around half alive, I SWEAR. I gotta remind myself to take breaks from staring at my computer lest I go blind by 28... </p>
+<img id=Weak src="img/Weak.png"/img></section>
+ 
+    
+    
+<section>
+<p id=dance_text>All I know is that I always do my best, but sometimes "done" is better than "perfect". As long as I am proud of the work I submit, I'll make it to May 13th. I am in need of an extra long nap and maybe a milkshake. But some sleezy bitch tried to use my credit card and now I gotta wait for my new one to come in. I hope that cancelled purchase was worth it, whoever you are; FYI, I am manifesting your downfall. You're making me wait for a fucking milkshake. Count your days, trick-ass bitch. </p>
+<img id=Dance src="img/Dance.png"/img></section>
+
+
+
+</main>
+
+  </div><!-- close "container" -->
+  
+  
+  <!-- Paste the jQuery starter code below here -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+      
+$('main').hide();
+      
+$('p#focus_text').hide();
+$("img#Focus").hide();
+      
+$('p#anvil_text').hide();
+$("img#Anvil").hide();
+
+$('p#weak_text').hide();
+$("img#Weak").hide();
+      
+$('p#dance_text').hide();
+$("img#Dance").hide();
+      
+      
+      
+$('img#well').click(function(){
+//$('p#cici').show();    
+//$('p#cici').slideDown();
+$('main').slideToggle(1);
+$('p#focus_text').slideToggle(250);
+$('img#Focus').fadeToggle(1500);
+    
+    
+}); //close click function
+      
+      
+$('img#Focus').click(function(){
+//$('p#cici').show();    
+//$('p#cici').slideDown();
+$('p#focus_text').hide();
+$("img#Focus").hide();
+$('p#anvil_text').slideToggle(250);
+$('img#Anvil').fadeToggle(1500);
+    
+}); //close click function
+      
+      
+      
+$('img#Anvil').click(function(){
+//$('p#cici').show();    
+//$('p#cici').slideDown();
+$('p#anvil_text').hide();
+$("img#Anvil").hide();
+$('p#weak_text').slideToggle(250);
+$('img#Weak').fadeToggle(1500);
+    
+}); //close click function
+      
+      
+      
+$('img#Weak').click(function(){
+//$('p#cici').show();    
+//$('p#cici').slideDown();
+$('p#weak_text').hide();
+$("img#Weak").hide();
+$('p#dance_text').slideToggle(250);
+$('img#Dance').fadeToggle(1500);
+    
+}); //close click function
+      
+      
+      
+$('img#Dance').click(function(){
+$('main').hide();
+      
+$('p#focus_text').hide();
+$("img#Focus").hide();
+      
+$('p#anvil_text').hide();
+$("img#Anvil").hide();
+
+$('p#weak_text').hide();
+$("img#Weak").hide();
+      
+$('p#dance_text').hide();
+$("img#Dance").hide();
+
+ $("body").toggleClass("pagemagic");  
+    
+}); //close click function
+      
+      
+      
+      
+      
+$("img#well").click(function(){
+    
+//$("body").css({"background":"blue","color":"white"})    
+ //$("body").addClass("pagemagic");    
+ $("body").toggleClass("pagemagic");    
+    
+});//close click function "Well"
+      
+      
+
+
+  }); //close .ready()
+</script> 
+  
+  
+
+</body>
+	
+</html> 
