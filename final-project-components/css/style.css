@@ -1,11 +1,7 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
-    margin: auto;
-	padding:40px;
-    padding-top:10px;
-    width: 80%;
-    font-family: Merriweather;
-    background: lavender;
+    font-family: Sanchez;
+
 }
 
 html {
@@ -14,8 +10,8 @@ html {
     color: darkslateblue;
     line-height: 2em;
     text-align: left;
-    width: 90%;                          
-    max-width: 800px;                 
+        background: url('../img/AdobeStock_819854429.jpeg')600%;
+                
 }
 
 
@@ -24,33 +20,41 @@ html {
 
 body {
 	
-	
 }
 
-h1 {
 
-background: purple;
-text-align: center;
-color: aliceblue
+h1{
+color: goldenrod;
+padding: 10px;
+padding-top: 10px;
 }
 
-main{  
-    background: rgb(255, 244, 242);                                         
-    margin: auto;
+
+main{
+    margin: auto;  
     padding: 10px;
 }
 
 
-#container {
- border: 1px solid black;
-align-content: center;
+#container2{
+background: rgba(255, 244, 242,75%);
+width: 80%;
+padding: 10px;
+position: inherit;
+margin:auto;
 	
+}
+
+footer{
+    
+padding: 10px;
 }
 
 
 img{
-    
-    width: 100%;
+display: block;
+width: 100%;
+margin: auto;
 }
 
 figcaption {
@@ -60,9 +64,39 @@ figcaption {
 
 
 
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:scroll;
+  background-color: lavender;
+}
 
 
+li{
+    
+    float:left;}
 
+li a {
+  display: block;
+  color: rebeccapurple;
+  padding: 16px 8px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: sandybrown;
+  color: purple;
+}
+
+footer{
+    
+    color: aliceblue;
+}
 
 /* ========================================
 MEDIA QUERIES!
@@ -73,9 +107,19 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
+    
+#container2{
+margin: auto;
+width: 75%;
+        
+    }
+
+	
+}
+    
        
 img{
-    width:75%;
+    width:50%;
     margin:auto;}   
 
 /* closes 769px+ */
@@ -86,6 +130,11 @@ img{
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 
-	
+	img{
+    width:50%;
+    margin:auto;
+    } 
+    
+
 	
 } /* closes 1024px+ */
