@@ -1,145 +1,96 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
-    font-family: Sanchez;
-
+	margin:0px;
+	padding:0px;
+	height:100%;
 }
 
 html {
 		/* Standard text-settings below */
 	font-size: 1em;
-    color: darkslateblue;
-    line-height: 2em;
-    text-align: left;
-        background: url('../img/AdobeStock_819854429.jpeg')600%;
-                
+    line-height: 1.4em;
 }
 
 
 
-/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	
+    background:#ffeac9 url('../img/white-peaches.jpg')no-repeat fixed center;
+    background-size: cover;
+    color:coral;
+	font-family: Copperplate, Tahoma;
+    margin:20px
 }
 
 
-h1{
-color: goldenrod;
-padding: 10px;
-padding-top: 60px;
+#container {
+  border: 1px dotted rgb(235, 125, 106);
+  background: rgb(255, 244, 242);
+  width: 90%;                          
+  max-width: 800px;                 
+  margin: auto;
+  padding: 20px;
 }
 
-
-main{
-    margin: auto;  
-    padding: 10px;
-}
-
-
-#container2{
-
-background: rgba(255, 244, 242,75%);
-width: 80%;
-padding: 10px;
-padding-top: 30px;
-position: inherit;
-margin:auto;
-	
-}
-
-footer{
+ul{
+ list-style: none;
+padding-left: 0px;
+  
     
-padding: 10px;
-}
-
-
-img{
-display: block;
-width: 100%;
-margin: auto;
-}
-
-figcaption {
-    
-    font-size: 0.5em;
-}
-
-
-
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow:scroll;
-  background-color: lavender;
 }
 
 
 li{
-    
-    float:left;}
 
-li a {
-  display: block;
-  color: rebeccapurple;
-  padding: 16px 8px;
-  text-decoration: none;
+  display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+    
 }
 
-/* Change the link color on hover */
-li a:hover {
-  background-color: sandybrown;
-  color: purple;
+nav a{
+  color:#896191;
+    display: :inline-block;
+    background:coral;
+    padding: 8px;
+    margin: auto;
+    text-decoration: none;
+    border-radius:5px;
+     
+   
+  
 }
 
-footer{
+nav a:hover{
+  color:#f26144;
+  background: lightblue;
     
-    color: aliceblue;
 }
 
-/* ========================================
-MEDIA QUERIES!
-You can adjust the min-width numbers below, and add as many new media queries as you need.
-======================================== */
-
-
-
-/* Minimum width for laptops. */
-@media all and (min-width: 769px) {
-    
-#container2{
-margin: auto;
-width: 75%;
-        
-    }
-
-	h1{
-color: goldenrod;
-padding: 10px;
-padding-top: 10px;
+a{
+  color:ghostwhite;
 }
+
+a:hover{
+  color:darkseagreen;
     
-       
+}
+
+figure{
+  margin:0px;
+    
+}
+
+
 img{
-    width:75%;
-    margin:auto;}   
+  width:100%;
+       
+}
 
-/* closes 769px+ */
-
-
-
-
-/* Minimum width for desktop screens. */
-@media all and (min-width: 1024px) {
-
-	img{
-    width:50%;
-    margin:auto;
-    } 
+figcaption,footer{
+  font-size:0.75em;  
     
-
-	
-} /* closes 1024px+ */
+}
