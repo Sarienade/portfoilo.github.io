@@ -26,7 +26,7 @@ body {
 h1{
 color: goldenrod;
 padding: 10px;
-padding-top: 10px;
+padding-top: 60px;
 }
 
 
@@ -37,9 +37,11 @@ main{
 
 
 #container2{
+
 background: rgba(255, 244, 242,75%);
 width: 80%;
 padding: 10px;
+padding-top: 30px;
 position: inherit;
 margin:auto;
 	
@@ -114,12 +116,15 @@ width: 75%;
         
     }
 
-	
+	h1{
+color: goldenrod;
+padding: 10px;
+padding-top: 10px;
 }
     
        
 img{
-    width:50%;
+    width:75%;
     margin:auto;}   
 
 /* closes 769px+ */
